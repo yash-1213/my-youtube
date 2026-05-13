@@ -1,0 +1,10 @@
+export const SIDEBAR_ICON = "https://icons.veryicon.com/png/o/miscellaneous/linear-icon-45/hamburger-menu-4.png";
+export const YOUTUBE_LOGO = "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/1280px-YouTube_Logo_2017.svg.png";
+export const USER_ICON = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtRs_rWILOMx5-v3aXwJu7LWUhnPceiKvvDg&s";
+export const SEARCH_ICON = "https://static.thenounproject.com/png/1594159-200.png";
+const GOOGLE_API_KEY = "AIzaSyDEGVCV0eVFIT8M-82jeHDRKmBiKvTsphc";
+export const YOUTUBE_VIDEO_API = `https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&regionCode=IN&maxResults=50&key=${GOOGLE_API_KEY}`;
+export const YOUTUBE_VIDEO_BY_ID = `https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=Ks-_Mh1QhMc&key=${GOOGLE_API_KEY}`;
+export const YOUTUBE_SEARCH_SUGGESTION_API = `http://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=`;
+export const YOUTUBE_SEARCH_BY_KEYWORD = `https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&key=${GOOGLE_API_KEY}&q=`;
+export const LIVE_CHAT_COUNT = 25;
